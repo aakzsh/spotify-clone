@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body{
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.up{
+    display: flex;
+    height: 88vh;
+    max-height: 88%;
+    background-color: pink;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.bottom{
+    height: 12vh;
+    max-height: 12%;
+    background-color: rgb(39, 39, 39);
+    width: 100vw;
+    max-width: 100%;
+}
+
+.left{
+    width: 17vw;
+    max-width: 17%;
+    background-color: black;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+.right{
+    background-image: linear-gradient(0deg,  rgb(39, 39, 39),rgb(39, 39, 39), rgb(39, 39, 39),rgba(184, 84, 223, 0.74), rgba(184, 84, 223, 0.74));
+    width: 83vw;
+    max-width: 83%;
+    background-color: rgb(39, 39, 39);
+    border-bottom: 0.2px  solid white;
+    /* border-style: solid; */
+    height: 100%;
+}
+
+
+.dot{
+    margin-top: -0.2rem;
+}
+
+.icons{
+    height: 2rem;
+    margin-left: -0.2rem;
+}
+
+.tiles{
+    /* background-color: purple; */
+    margin-bottom: -1rem;
+    opacity: 0.8;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    /* justify-content: start; */
+    justify-content: start;
+}
+
+.dibba{
+    width: 50px;
+    /* background-color: red; */
+}
+
+.options{
+    /* background-color: purple; */
+    margin-bottom: -1rem;
+    opacity: 0.7;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    /* justify-content: start; */
+
+    justify-content: space-between;
+}
+
+.dibbi{
+    width: 2rem;
+    height: 2rem;
+    background-color: wheat;
+    /* background-color: red; */
+}
+
+.text{
+    /* background-color: brown; */
+    width: 9rem;
+}
+
+.divider{
+   width: 80%;
+   height: 0.2px;
+   background-color: rgba(245, 245, 245, 0.684);
+}
+
+.songtile{
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+}
+
+.songtitle{
+    font-size: 0.8rem;
+    margin-bottom: -0.3rem;
+}
+
+.artist{
+    font-size: 0.6rem;
+    opacity: 0.7;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+}
+
+.purpleclr{
+    margin: 1.5rem;
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    /* background-color: rgba(184, 84, 223, 0.74); */
+}
+
+.blackoverlay{
+    background-color: rgba(0, 0, 0, 0.415);
+    /* background-color: orange; */
+    height: 40vh;
+    width: 81.2vw;
+    bottom: 8rem;
+    /* max-width: 83%; */
+    position: absolute;
+}
+
+.play{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 5rem;
+    background-color: rgb(87, 212, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tri{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+
+.uptile{
+    margin-left: 2rem;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    width: 15rem;
+    justify-content: space-between;
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+}
