@@ -38,7 +38,7 @@ html, body{
 }
 
 .right{
-    background-image: linear-gradient(0deg,  rgb(39, 39, 39),rgb(39, 39, 39), rgb(39, 39, 39),rgba(96, 57, 111, 0.74),rgba(140, 70, 168, 0.74),rgba(184, 84, 223, 0.74), rgba(184, 84, 223, 0.74));
+    background-image: linear-gradient(0deg,  rgb(39, 39, 39),rgb(39, 39, 39), rgb(39, 39, 39),rgba(96, 57, 111, 0.74),rgba(181, 124, 204, 0.74),rgba(204, 131, 233, 0.927), rgba(204, 131, 233, 0.927));
     width: 83vw;
     max-width: 83%;
     background-color: rgb(39, 39, 39);
